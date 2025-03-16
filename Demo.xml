@@ -1,4 +1,4 @@
 
-<root>
-    <message>Hello, [name]! Welcome to our platform. 🚀</message>
-</root>
+<email>
+    <template>Hello, [name]! Welcome to our platform. 🚀</template>
+</email>
