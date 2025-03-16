@@ -37,7 +37,7 @@
         <body>
             <div class="container">
                 <h1>Welcome, {name}!</h1>
-                <p>We are excited to have you on board. Stay tuned for updates.</p>
+                <p>We are excited {otp} to have you on board. Stay tuned for updates.</p>
                 <a class="button" href="https://example.com">Visit Our Website</a>
             </div>
         </body>
