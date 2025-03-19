@@ -1,0 +1,74 @@
+<email>
+    <template>
+        <![CDATA[
+        <html>
+        <head>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f4f4f4;
+                    padding: 20px;
+                    text-align: center;
+                }
+                .container {
+                    background-color: #ffffff;
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
+                h1 {
+                    color: #333;
+                }
+                p {
+                    font-size: 16px;
+                    color: #555;
+                }
+                .button {
+                    background-color: #008CBA;
+                    color: white;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    display: inline-block;
+                    margin-top: 20px;
+                }
+                .footer {
+                    margin-top: 20px;
+                    padding-top: 10px;
+                    border-top: 1px solid #ddd;
+                }
+                .social-icons {
+                    margin-top: 10px;
+                }
+                .social-icons a {
+                    display: inline-block;
+                    margin: 0 10px;
+                }
+                .social-icons img {
+                    width: 30px;
+                    height: 30px;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>Welcome, {name}!</h1>
+                <p>We are excited {otp} to have you on board. Stay tuned for updates.</p>
+                <a class="button" href="https://example.com">Visit Our Website</a>
+                <div class="footer">
+                    <p>Follow us on</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/yourprofile" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+                        </a>
+                        <a href="https://github.com/yourprofile" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </body>
+        </html>
+        ]]>
+    </template>
+</email>
