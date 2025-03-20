@@ -1,0 +1,82 @@
+<email>
+    <template>
+        <![CDATA[
+        <html>
+        <head>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f4f4f4;
+                    padding: 20px;
+                    text-align: center;
+                }
+                .container {
+                    background-color: #ffffff;
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    max-width: 500px;
+                    margin: auto;
+                }
+                h1 {
+                    color: #333;
+                }
+                p {
+                    font-size: 16px;
+                    color: #555;
+                    line-height: 1.5;
+                }
+                .button {
+                    background-color: #008CBA;
+                    color: white;
+                    padding: 12px 25px;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    display: inline-block;
+                    margin-top: 20px;
+                    font-size: 16px;
+                }
+                .footer {
+                    margin-top: 20px;
+                    padding-top: 15px;
+                    border-top: 1px solid #ddd;
+                }
+                .social-icons a {
+                    display: inline-block;
+                    margin: 0 10px;
+                    text-decoration: none;
+                }
+                .social-icons img {
+                    width: 30px;
+                    height: 30px;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>Welcome, {name}!</h1>
+                <p>We're thrilled to have you on board! Your one-time passcode (OTP) is:</p>
+                <h2 style="color: #008CBA;">{otp}</h2>
+                <p>Please use this OTP to complete your signup process.</p>
+                <a class="button" href="https://example.com">Visit Our Website</a>
+                
+                <div class="footer">
+                    <p>Follow us on social media:</p>
+                    <div class="social-icons">
+                        <a href="https://t.me/yourusername" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram">
+                        </a>
+                        <a href="https://instagram.com/yourusername" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+                        </a>
+                        <a href="https://github.com/yourusername" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </body>
+        </html>
+        ]]>
+    </template>
+</email>
